@@ -58,7 +58,7 @@ jobs:
   
     - name: Upload-Package
       if: ${{ !env.ACT }}
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: EBOOT.PBP
         path: /home/runner/work/DevilutionX-PSP/DevilutionX-PSP/build
